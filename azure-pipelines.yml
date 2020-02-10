@@ -3,7 +3,7 @@
 
 trigger: 
   branches:
-  - master
+    - master
 
 pool:
   vmImage: 'ubuntu-latest'
