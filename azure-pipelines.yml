@@ -1,13 +1,9 @@
 # Pipeline to execute sample Java app that is
 # triggered by the VehiclesCatalogApi.
 
-resources:
-  pipelines:
-  - pipeline: VehiclesCatalogApi
-    source: VehiclesCatalogApi
-    trigger: 
-      branches:
-      - master
+trigger: 
+  branches:
+  - master
 
 pool:
   vmImage: 'ubuntu-latest'
