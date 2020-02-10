@@ -5,8 +5,9 @@ resources:
   pipelines:
   - pipeline: VehiclesCatalogApi
     source: VehiclesCatalogApi
-trigger:
-- master
+    trigger: 
+      branches:
+      - master
 
 pool:
   vmImage: 'ubuntu-latest'
