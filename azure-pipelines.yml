@@ -1,5 +1,5 @@
 # Pipeline to execute sample Java app that is
-# triggered by the VehiclesCatalogApi.
+# triggered by PublishVehiclesCatalogApi.
 
 trigger:
   branches:
